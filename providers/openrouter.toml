@@ -997,3 +997,43 @@ max_output_tokens = 235929
 input_cost_per_m = 0.0
 output_cost_per_m = 0.0
 supports_streaming = true
+
+[[models]]
+id = "openrouter/liquid/lfm-3-1.7b"
+display_name = "LiquidAI: LFM3-1.7B (OpenRouter)"
+tier = "fast"
+context_window = 262144
+max_output_tokens = 8192
+input_cost_per_m = 0.08
+output_cost_per_m = 0.2
+supports_streaming = true
+
+[[models]]
+id = "openrouter/liquid/lfm-3-1.7b:free"
+display_name = "LiquidAI: LFM3-1.7B (free) (OpenRouter)"
+tier = "fast"
+context_window = 262144
+max_output_tokens = 8192
+input_cost_per_m = 0.0
+output_cost_per_m = 0.0
+supports_streaming = true
+
+[[models]]
+id = "openrouter/meta/muse-glimmer-30b:batch"
+display_name = "Meta: Muse Glimmer 30B (batch) (OpenRouter)"
+tier = "fast"
+context_window = 131072
+max_output_tokens = 16384
+input_cost_per_m = 0.24
+output_cost_per_m = 0.96
+supports_streaming = true
+
+[[models]]
+id = "openrouter/thinkingmachines/inkling-small:batch"
+display_name = "Thinking Machines: Inkling Small (batch) (OpenRouter)"
+tier = "fast"
+context_window = 524288
+max_output_tokens = 262144
+input_cost_per_m = 0.36
+output_cost_per_m = 0.96
+supports_streaming = true
